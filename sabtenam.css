@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PeydaWeb-Medium";
+}
+
+nav{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.247);
+}
+header{
+    display: flex;
+    width: 75%;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+
+.countainer{
+    display: flex;
+    
+    
+    
+}
+.countainer img{
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+
+.list-items{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    color: gray;
+    
+}
+
+.list-items li{
+    cursor: pointer;
+}
+
+.track-button{
+
+}
+
+.track-button button{
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid rgb(62, 65, 235);
+    color: blue;
+    padding: 15px 25px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.track-button button:hover{
+    background-color: rgba(167, 167, 167, 0.199);
+}
+.line{
+    height: 1px solid gray;
+}
+

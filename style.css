@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PeydaWeb-Medium";
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+.first-header{
+    background-color: rgb(0, 10, 81);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+   
+}
+
+.first-header a{
+    height: 90px;
+    min-height: 90px;
+}
+
+.second-header{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin: auto;
+    padding: 40px;
+    max-width: 1500px;
+}
+.second-header img{
+    
+}
+
+.second-header ul{
+    display: flex;
+    margin-right: 40px;
+    gap: 30px;
+    list-style: none;
+    min-width: 1000px;
+    
+}
+
+.second-header li{
+    color: #3f3f3f;
+    display: flex;
+    align-items: center;
+}
+.second-header a{
+    text-decoration: none;
+    color: #3f3f3f
+    ;
+}
+
+.list-item{
+    display: flex;
+    
+}
+.list-item i{
+    margin-right: 10px;
+    font-size: 10px;
+}
+
+.first-section {
+    width: 100%;
+    display: flex;
+    /* height: fit-content; */
+}
+
+.green-section{
+    width: 50%;
+    background-color: rgb(33, 170, 88);
+    display: flex;
+    flex-direction: row-reverse
+}
+
+.photo-section{
+    width: 50%;
+    background-image: url(./image/intro_desktop.jpg);
+    min-height: 40vh;
+    background-position: center;
+    transform: scaleX(-1);
+    background-size: cover;
+}
+
+.green-section h1{
+    font-size: 33px;
+    line-height: 52px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 30px;
+}
+.green-section p{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.link-input{
+   display: flex;
+   
+}
+
+.link-input input{
+    width: 50%;
+    outline: none;
+    border: none;
+    background-color: rgb(33, 170, 88);
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid white;
+}
+
+
+.link-input input::placeholder{
+    color: rgb(255, 255, 255);
+}
+
+.link-input button{
+    background-color: white;
+    padding: 10px 30px;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: rgb(0, 209, 111);
+    font-family: "PeydaWeb-ExtraBold";
+    font-size: 15px;
+}
+
+.enter-button button{
+    background-color: rgb(33, 170, 88);
+    border: 1px solid white;
+    padding: 10px 0;
+    width: 50%;
+    font-size: 1rem;
+    font-family: "PeydaWeb-ExtraBold";
+    color: white;
+    margin-top: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+.enter-button button:hover{
+    background-color:  rgba(77, 185, 113, 0.671);
+}
+.all-text{
+    width: 70%;
+    padding: 40px 25px 40px 55px;
+    
+}
+
+.apps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    gap: 50px;
+    
+}
+
+.apps img{
+    width: 150px;
+}
+
+.application-section{
+    background-color: rgb(242, 245, 248);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.application-section h2{
+    font-size: 2.5rem;
+    margin: 50px 0;
+    color: #3f3f3f;
+}
+
+.all-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.one-box{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+
+}
+.one-box div{
+    margin-right: 10px;
+    
+    
+}
+.one-box div h5{
+    margin-bottom: 7px;
+    font-size: 1rem;
+}
+.one-box p{
+    font-size: 14px;
+    color: gray;
+}
+
+.one-box img{
+    width: 60px;
+    
+}
+
+.food-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.food-banner img{
+    width: 1100px;
+    border-radius: 10px;
+    margin: 80px 0;
+    
+    
+    
+}
+.first-superapp{
+    display: flex;
+}
+
+.super-app{
+    display: flex;
+    flex-direction: column;
+    min-height: 700px;
+    position: relative;
+}
+.super-app img{
+    height: 500px;
+    width: 50%;
+
+}
+
+.super-app-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 30px 30px 0 200px;
+    text-align: justify;
+}
+.super-app-text h2{
+    margin-bottom: 20px;
+    color: #3f3f3f;
+}
+.super-app-text p{
+    color: gray;
+}
+
+.super-app-options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    right: 0;
+    max-width: 60%;
+    margin: auto;
+    gap: 70px;
+}
+
+.image-countainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:350px;
+    background-color: #f2f5f8;
+    border-radius: 20px;
+}
+
+.option-one{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+
+.option-one img{
+   height: 200px;
+   width: 230px;
+  
+
+}
+
+.option-one h3{
+    color: #3f3f3f;
+    margin: 20px 0;
+}
+
+.option-one p {
+    /* width: 350px; */
+    font-size: 0.8rem;
+    color: #3f3f3f;
+}
+
+
+
+.register-snap{
+    max-width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f5f8;
+}
+
+.register-video{
+    display: flex;
+    margin: auto;
+   width: 70%;
+
+}
+.register-video video{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.register-advantages{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+.advantage{
+    width: 49%;
+    background-color: white;
+    display: flex;
+    padding: 50px 30px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    align-items: center;
+
+    
+}
+.advantage-img{
+    width: 200px;
+}
+.advantage-img img{
+    width: 100%;
+}
+.advantage-text{
+    display: flex;
+    flex-direction: column;
+}
+.advantage h3{
+    font-size: 1.1rem;
+    color: #3f3f3f;
+    margin-bottom: 10px;
+}
+.advantage p{
+    font-size: 0.8rem;
+}
